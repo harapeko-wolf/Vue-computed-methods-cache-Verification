@@ -1,5 +1,8 @@
 <template>
-  <div id="app"><img width="25%" src="./assets/logo.png" /> <Cash /></div>
+  <div id="app">
+    <h1>Cash Verification</h1>
+    <Cash />
+  </div>
 </template>
 
 <script>
@@ -21,5 +24,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+h1 {
+  text-align: center;
 }
 </style>

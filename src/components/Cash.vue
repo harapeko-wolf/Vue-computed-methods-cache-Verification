@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div　class="cash">
     <div>
       <h2>Computed</h2>
       <ol>
@@ -44,12 +44,16 @@ h1,
 h2 {
   font-weight: normal;
 }
+.cash {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 ul {
   // list-style: ;
   padding: 0;
 }
 li {
-  display: inline-block;
   margin: 0 10px;
 }
 a {
