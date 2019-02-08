@@ -28,4 +28,4 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 
 # Memo
-Vue computed and methods cash verification.
+Vue computed and methods cache verification.
